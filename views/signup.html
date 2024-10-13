@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightFit</title>
+    <link rel="stylesheet" href="log_sign.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="img/side.jpg" alt="">
+        </div>
+        <div class="right">
+            <div class="link_to_login">
+                <span class="text">Already have an account? </span>&nbsp;<a href="/login">log in</a>
+            </div>
+            <div class="welcome_txt">
+                <div class="first_txt">
+                    Welcome to Recruit AI
+                </div>
+                <div class="second_txt">
+                    Unlock opportunities and find your perfect job with Recruit AI.
+                </div>
+            </div>
+            <div class="input_container_form">
+                <form class="form">
+                    <div class="name_input">
+                        <div class="name_dis">Full name</div>
+                        <div class="input_container container_for_name">
+                            <input type="text" id="fullName" required>
+                        </div>
+                    </div>
+                    <div class="discriptions">
+                        Full name as it appears on identification document
+                    </div>
+                    <div class="name_input1 email_input">
+                        <div class="name_dis">Email</div>
+                        <div class="input_container container_for_email">
+                            <input type="text" id="email" required>
+                        </div>
+                    </div>
+                    <div class="discriptions">
+                        For example 'you@yourname.com'
+                    </div>
+                    <div class="name_input1 password_input">
+                        <div class="name_dis">Create password</div>
+                        <div class="input_container container_for_password">
+                            <input type="password" id="password" required>
+                        </div>
+                    </div>
+                    <div class="discriptions1">
+                        <div class="rig">
+                            <ul>
+                                <li>Lowercase characters</li>
+                                <li>Numbers</li>
+                            </ul>
+                        </div>
+                        <div class="lef">
+                            <ul>
+                                <li>Uppercase characters</li>
+                                <li>8 characters minimum</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="name_input1 confirm_password_input">
+                        <div class="name_dis">Confirm password</div>
+                        <div class="input_container container_for_confirmpassword">
+                            <input type="password" id="confirm_password" required>
+                        </div>
+                    </div>
+                    <div class="submit_btn_container">
+                        <button class="submit_btn"> Sign up</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="successful_msg">
+        <div class="success_logo">
+            <img src="img/checked.png" class="successful_img" alt="">
+        </div>
+        <div class="wording">
+            Your Login is successful
+        </div>
+    </div>
+
+    <div class="unsuccessful_msg">
+        <div class="unsuccess_logo">
+            <img src="img/incorrect.png" class="unsuccessful_img" alt="">
+        </div>
+        <div class="wording">
+            Your Login is unsuccessful
+        </div>
+    </div>
+    <script type="module" src="js/register.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+.container {
+  display: flex;
+  font-family: "Mulish", sans-serif;
+  height: 895px;
+}
+.logo {
+  height: 40%;
+}
+.nav {
+  font-weight: 600 !important;
+  font-size: 18px;
+}
+.left {
+  width: 22%;
+  height: 100%;
+}
+.left img {
+  width: 100%;
+  height: 100%;
+}
+.signupbanner {
+  color: #fafcff;
+  font-size: 22px;
+  font-family: 900;
+  margin-top: 200px;
+}
+.signupbanner1 {
+  color: #9dc6ff;
+  font-size: 16px;
+}
+.one {
+  margin-top: 20px;
+}
+.two {
+  margin-top: 10px;
+}
+.eff {
+  color: #fafcff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sub {
+  color: #e0e0e0;
+  font-size: 15px;
+}
+.arrow {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.four {
+  height: 40%;
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.five {
+  height: 10%;
+  margin-top: 30px;
+}
+.firstimg {
+  position: absolute;
+  left: 220px;
+  top: 360px;
+}
+.right {
+  font-family: "Mulish", sans-serif;
+  width: 78%;
+  padding: 20px;
+}
+.welcome_txt {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.first_txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  color: #565151;
+  font-weight: 700;
+}
+.second_txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #686c6f;
+  margin-top: 9px;
+}
+.link_to_login {
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.text {
+  color: #686c6f;
+}
+a {
+  color: #0161ff;
+  text-decoration: none;
+}
+.input_container_form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.name_input {
+  border: 1px solid #c9c9c9;
+  width: 400px;
+  border-radius: 6px;
+  height: 30px;
+  padding: 8px;
+  margin-top: 60px;
+}
+.name_dis {
+  color: #686c6f;
+  font-size: 12px;
+}
+.discriptions {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #686c6f;
+}
+input {
+  font-family: "Mulish", sans-serif;
+  color: #565151;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.name_input1 {
+  border: 1px solid #c9c9c9;
+  width: 400px;
+  border-radius: 6px;
+  height: 30px;
+  padding: 8px;
+}
+.discriptions1 {
+  margin-bottom: 20px;
+  display: flex;
+  font-size: 12px;
+  color: #686c6f;
+}
+.submit_btn_container {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit_btn {
+  width: 110px;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  background-color: #0161ff;
+  color: white;
+  font-size: 14px;
+}
+#role {
+  width: 200px;
+  border-radius: 20px;
+  outline: none;
+  height: 30px;
+  border: 1px solid #686c6f;
+  padding-left: 10px;
+}
+.successful_msg {
+  display: none;
+  position: absolute;
+  background-color: #e0e0e0;
+  top: 200px;
+  right: 30%;
+  width: 350px;
+  height: 190px;
+  z-index: 2900;
+  border-radius: 20px;
+}
+.rig {
+  margin-left: -15px !important;
+}
+li {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+.successful_img {
+  -webkit-filter: none !important; /* Ensure it overrides any conflicting styles */
+  filter: none !important;
+  width: 60px;
+  height: 60px;
+}
+.success_logo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.error-border {
+  border: 2px solid #ff2727;
+}
+.correct-border {
+  border: 2px solid #2496ff;
+}
+.unsuccessful_msg {
+  display: none;
+  position: absolute;
+  background-color: #e0e0e0;
+  top: 200px;
+  right: 30%;
+  width: 350px;
+  height: 190px;
+  z-index: 2900;
+  border-radius: 20px;
+}
+.unsuccessful_img {
+  width: 60px;
+  height: 60px;
+}
+.unsuccess_logo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.wording {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+@media only screen and (max-width: 1110px) {
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+}

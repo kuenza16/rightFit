@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RightFit</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="respon.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="usertype"></div>
+    <div class="display_submit">
+      <div class="submitfolder">
+        <div class="container">
+          <form id="applyForm" enctype="multipart/form-data" type="file">
+            <img src="img/upload.svg" class="uploadlogo" alt="" />
+            <input
+              type="text"
+              id="jobId"
+              name="jobId"
+              placeholder="Enter Job ID"
+            /><br />
+            <input
+              type="text"
+              id="userId"
+              name="userId"
+              placeholder="Enter User ID"
+            /><br />
+            <input
+              type="file"
+              class="form-input"
+              id="pdfFile"
+              name="pdfFile"
+              accept=".pdf"
+              placeholder="place your resume"
+            /><br />
+            <button id="submit" type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="img/close.svg" class="close_btn" alt="" />
+      </div>
+    </div>
+    <div class="confirmation">
+      <div class="imgcontent">
+        <img src="img/checked.png" alt="" class="img" />
+      </div>
+      <div class="headingofconfirm">Your Application Is Submitted</div>
+      <div class="btn_contain">
+        <button class="ok_button">OK</button>
+      </div>
+    </div>
+    <div class="header">
+      <div class="logo">
+        <img src="img/newlogo.svg" alt="" />
+      </div>
+      <div class="login_signup">
+        <!-- <div class="signup_btn">
+                <button class="sign">Sign Up</button>
+            </div>
+            <div class="login_btn">
+                <button class="log">Login</button>
+            </div> -->
+      </div>
+      <div class="login_signup_respon">
+        <div class="listingdiv">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="currentColor"
+            class="bi bi-list openthenavbar"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
+        <div class="closingdiv">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-x-lg closethenavbar"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="menu_of_navbar"></div>
+    <div class="content">
+      <div class="detail_content">
+        <div class="top_bar">
+          <img src="img/companylogo.svg" class="detail_logo" alt="" />
+        </div>
+
+        <div class="detail_maincontent">
+          <div class="left_side">
+            <div class="postion"></div>
+            <div class="agency"></div>
+            <div class="min_qualification">
+              <div class="topic">Minimum Qualifications</div>
+              <ul>
+                <li>
+                  <div class="qualifications"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="field">
+              <div class="topic">Field Of Work:</div>
+              <ul>
+                <li>
+                  <div class="list"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="slots">
+              <div class="topic">Number Of Slots:</div>
+              <ul>
+                <li>
+                  <div class="slot"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="compandbenefits">
+              <div class="topic">Compensation And Benefits:</div>
+              <ul>
+                <li>
+                  <div class="pay"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="summary">
+              <div class="topic">Summary Of The Role:</div>
+              <ul>
+                <li>
+                  <div class="list_sumarylist"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="right_side">
+            <div class="short_detail_containers">
+              <div class="title_job_header"></div>
+              <div class="jobtypebasic_detail">
+                <span class="tpc">Job Type</span> <br />
+                <img src="img/Black.svg" alt="" /> &nbsp;
+                <span class="bott cnt"></span>
+              </div>
+              <div class="jobtypebasic_detail">
+                <span class="tpc">Department</span><br />
+                <img src="img/Vector.svg" alt="" /> &nbsp;<span
+                  class="bott1 cnt"
+                ></span>
+              </div>
+              <div class="jobtypebasic_detail">
+                <span class="tpc">Dzongkhag</span><br />
+                <img src="img/pin.svg" alt="" /> &nbsp;<span
+                  class="location cnt"
+                ></span>
+              </div>
+              <div class="jobtypebasic_detail">
+                <span class="tpc">Pay</span><br />
+                <span class="salary_range cnt"></span>
+              </div>
+              <div class="jobtypebasic_detail">
+                <span class="tpc">Published On</span><br />
+                <span class="published_At cnt"></span>
+              </div>
+              <div class="jobtypebasic_detail">
+                <span class="tpc">Application Ends</span><br />
+                <span class="enddate cnt"></span>
+              </div>
+              <div class="submit_container">
+                <button class="apply_btn">
+                  Apply <img src="img/Black12.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loading_container">
+      <div class="loader"></div>
+    </div>
+    <div class="unsuccessful_msg">
+      <div class="unsuccess_logo">
+        <img src="img/incorrect.png" class="unsuccessful_img" alt="" />
+      </div>
+      <div class="wording">You are only allowed to submit once</div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="js/userDetail.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>

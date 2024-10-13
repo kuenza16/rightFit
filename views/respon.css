@@ -1,0 +1,20 @@
+@media (max-width: 800px) {
+  .login_signup {
+    display: none;
+  }
+  .login_signup_respon {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    width: 82.5%;
+    padding-right: 28px;
+  }
+  .closingdiv {
+    display: none;
+  }
+}
+@media (min-width: 802px) {
+  .menu_of_navbar {
+    display: none !important; /* Force hide the navbar for screens wider than 700px */
+  }
+}

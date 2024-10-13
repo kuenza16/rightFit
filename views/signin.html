@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RightFit</title>
+    <link rel="stylesheet" href="log_sign.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="img/side.jpg" alt="">
+        </div>
+        <div class="right">
+            <div class="link_to_login">
+                <span class="text">Don't have an account? </span>&nbsp;<a href="/register">Sign up now</a>
+            </div>
+            <div class="welcome_txt">
+                <div class="first_txt">
+                    Welcome to Recruit AI
+                </div>
+                <div class="second_txt">
+                    Unlock opportunities and find your perfect job with Recruit AI.
+                </div>
+            </div>
+            <div class="input_container_form">
+                <form class="form">
+                    <div class="name_input">
+                        <div class="name_dis">Email</div>
+                        <div class="input_container">
+                            <input type="text" id="email" required>
+                        </div>
+                    </div>
+                    <div class="discriptions">
+                        For example 'you@yourname.com'
+                    </div>
+                    <div class="name_input1">
+                        <div class="name_dis">Enter password</div>
+                        <div class="input_container">
+                            <input type="password" id="password" required>
+                        </div>
+                    </div>
+                    <div class="discriptions">
+                        Please enter your password
+                    </div>
+                    <label for="role">Role:</label>
+                    <select id="role" name="role">
+                        <option value="regular">Regular User</option>
+                        <option value="hr">HR</option>
+                    </select><br><br>
+                    <div class="submit_btn_container">
+                        <button class="submit_btn"> Log in</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="successful_msg">
+        <div class="success_logo">
+            <img src="img/checked.png" class="successful_img" alt="">
+        </div>
+        <div class="wording">
+            Your Login is successful
+        </div>
+    </div>
+
+    <div class="unsuccessful_msg">
+        <div class="unsuccess_logo">
+            <img src="img/incorrect.png" class="unsuccessful_img" alt="">
+        </div>
+        <div class="wording">
+            Your Login is unsuccessful
+        </div>
+    </div>
+    <script type="module" src="js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</html>

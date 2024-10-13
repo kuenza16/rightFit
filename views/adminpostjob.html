@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="post1.css" />
+    <link rel="stylesheet" href="respon.css" />
+    <title>RightFit</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="img/newlogo.svg" alt="" />
+      </div>
+      <div class="login_signup"></div>
+      <div class="login_signup_respon">
+        <div class="listingdiv">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="currentColor"
+            class="bi bi-list openthenavbar"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
+        <div class="closingdiv">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-x-lg closethenavbar"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="menu_of_navbar"></div>
+    <div class="content" id="content">
+      <div class="job_vacancytitle">Post A New Job Vacancy</div>
+      <div class="job_vacancysubtitle">
+        Please fill the form below to correctly to post a new job vacancy
+      </div>
+      <div class="display_detail1">
+        <div class="progress_container">
+          <div class="one1 let">1</div>
+          <div class="one_two prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="two1 let">2</div>
+          <div class="two_three prog"></div>
+          <div class="three1 let">3</div>
+          <div class="three_four prog"></div>
+          <div class="four1 let">4</div>
+        </div>
+        <hr class="hrline" />
+        <div class="steps">Step 1</div>
+        <div class="form1">
+          <div class="top1">
+            <div class="inputcontent">
+              <div class="topicno1">
+                <div class="topicno1 respond">Job Title</div>
+                <div class="topicno12">
+                  <input
+                    type="text"
+                    id="JobTitle"
+                    placeholder="Ass. Legal Officer"
+                  />
+                </div>
+              </div>
+              <div class="topicno1">
+                <div class="topicno1 respond">Department</div>
+                <div class="topicno12">
+                  <input
+                    type="text"
+                    id="department"
+                    placeholder="Policy and planning service"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top2">
+            <div class="inputcontent">
+              <div class="topicno1">
+                <div class="topicno1 respond">Employee Type</div>
+                <div class="topicno12">
+                  <select name="#" id="employeeType" class="selection">
+                    <option value="Full Time">Full Time</option>
+                    <option value="Part Time">Part-time</option>
+                    <option value="Internship">Internship</option>
+                    <option value="Contract">Contract</option>
+                  </select>
+                </div>
+              </div>
+              <div class="topicno1">
+                <div class="topicno1 respond">Postion Title</div>
+                <div class="topicno12">
+                  <input
+                    type="text"
+                    id="positionTitle"
+                    placeholder="Legal Officer"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn_next1">Next step</button>
+      <button class="btn_prev1">Previous step</button>
+      <button class="btn_vacan1">Create New Vacancy</button>
+      <div class="display_detail2">
+        <div class="progress_container">
+          <div class="one1 let">1</div>
+          <div class="one_two prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="two1 let">2</div>
+          <div class="two_three prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="three1 let">3</div>
+          <div class="three_four prog"></div>
+          <div class="four1 let">4</div>
+        </div>
+        <hr class="hrline" />
+        <div class="steps">Step 2</div>
+        <div class="form1">
+          <div class="top1">
+            <div class="inputcontent">
+              <div class="topicno1">
+                <div class="topicno1 respond">Field</div>
+                <div class="topicno12">
+                  <input
+                    type="text"
+                    id="field"
+                    placeholder="Techbical service"
+                  />
+                </div>
+              </div>
+              <div class="topicno1">
+                <div class="topicno1 respond">No. Of Slots</div>
+                <div class="topicno12">
+                  <input type="text" id="slots" placeholder="1" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top2">
+            <div class="inputcontent">
+              <div class="topicno1">
+                <div class="topicno1 respond">Qualification</div>
+                <div class="topicno12">
+                  <select name="#" id="qualification" class="selection">
+                    <option value="No qualification">No qualification</option>
+                    <option value="Bachelors in Law">Bachelors in Law</option>
+                    <option value="Bachelors in Computer Science">
+                      Bachelors in Computer Science
+                    </option>
+                    <option value="Bachelors in Agriculture">
+                      Bachelors in Agriculture
+                    </option>
+                    <option
+                      value="Bachelors in Business Administration/Management"
+                    >
+                      Bachelors in Business Administration
+                    </option>
+
+                    <option value="Bachelors in Law">Bachelors in Law</option>
+                    <option value="Bachelors in Computer Science">
+                      Bachelors in Computer Science
+                    </option>
+                    <option value="Bachelors in Agriculture">
+                      Bachelors in Agriculture
+                    </option>
+                    <option
+                      value="Bachelors in Business Administration/Management"
+                    >
+                      Bachelors in Business Administration/Management
+                    </option>
+                    <option value="Bachelors in Economics">
+                      Bachelors in Economics
+                    </option>
+                    <option value="Bachelors in Psychology">
+                      Bachelors in Psychology
+                    </option>
+                    <option value="Bachelors in Engineering">
+                      Bachelors in Engineering
+                    </option>
+                    <option value="Bachelors in Nursing">
+                      Bachelors in Nursing
+                    </option>
+                    <option value="Bachelors in Education">
+                      Bachelors in Education
+                    </option>
+                    <option value="Bachelors in Fine Arts">
+                      Bachelors in Fine Arts
+                    </option>
+                    <option value="Bachelors in Environmental Science">
+                      Bachelors in Environmental Science
+                    </option>
+                    <option value="Bachelors in Marketing">
+                      Bachelors in Marketing
+                    </option>
+                    <option value="Bachelors in Finance">
+                      Bachelors in Finance
+                    </option>
+                    <option value="Bachelors in Information Technology">
+                      Bachelors in Information Technology
+                    </option>
+                    <option value="Bachelors in Communications">
+                      Bachelors in Communications
+                    </option>
+                    <option value="Bachelors in Public Health">
+                      Bachelors in Public Health
+                    </option>
+                    <option value="Bachelors in Social Work">
+                      Bachelors in Social Work
+                    </option>
+                    <option value="Bachelors in Chemistry">
+                      Bachelors in Chemistry
+                    </option>
+                    <option value="Bachelors in Physics">
+                      Bachelors in Physics
+                    </option>
+                    <option value="Bachelors in Mathematics">
+                      Bachelors in Mathematics
+                    </option>
+                    <option value="Bachelors in History">
+                      Bachelors in History
+                    </option>
+                    <option value="Class 10">Class 10</option>
+                    <option value="Class 12">Class 12</option>
+                  </select>
+                </div>
+              </div>
+              <div class="topicno1">
+                <div class="topicno1 respond">Placement</div>
+                <div class="topicno12">
+                  <input type="text" id="placement" placeholder="Thimphu" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="display_detail3">
+        <div class="progress_container">
+          <div class="one1 let">1</div>
+          <div class="one_two prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="two1 let">2</div>
+          <div class="two_three prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="three1 let">3</div>
+          <div class="three_four prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="four1 let">4</div>
+        </div>
+        <hr class="hrline" />
+        <div class="steps">
+          <div class="one_1">Salary Of The Recruit</div>
+          <div class="two_1">
+            Please select the budget range you have in mind.
+          </div>
+        </div>
+        <div class="form1">
+          <div class="layerone">
+            <div class="salary_one">
+              <!-- Ensure that the radio buttons for the salary range have unique IDs -->
+              <input
+                type="radio"
+                id="salaryRange1"
+                value="Nu. 5,000 - Nu. 10,000"
+              />Nu. 5,000 - Nu. 10,000
+            </div>
+            <div class="salary_one">
+              <input
+                type="radio"
+                id="salaryRange1"
+                value="Nu. 10,000 - Nu. 20,000"
+              />Nu. 10,000 - Nu. 20,000
+            </div>
+          </div>
+          <div class="layerone">
+            <div class="salary_one">
+              <input
+                type="radio"
+                id="salaryRange1"
+                value="Nu. 20,000 - Nu. 50,000"
+              />Nu. 20,000 - Nu. 50,000
+            </div>
+            <div class="salary_one">
+              <input type="radio" id="salaryRange1" value="Nu. 50,000 +" />Nu.
+              50,000 +
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="display_detail4">
+        <div class="progress_container">
+          <div class="one1 let">1</div>
+          <div class="one_two prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="two1 let">2</div>
+          <div class="two_three prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="three1 let">3</div>
+          <div class="three_four prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="four1 let">4</div>
+        </div>
+        <hr class="hrline" />
+        <div class="steps4">
+          <div class="job_descript">
+            <div class="topic_descript">Job Description</div>
+            <div class="job_descript_input">
+              <!-- <input type="text" id="jobDescription"> -->
+              <textarea
+                name=""
+                id="jobDescription"
+                cols="50"
+                rows="8"
+                class="Job_descript_input"
+                placeholder="What Kind of job will they be doing?........."
+              >
+              </textarea>
+            </div>
+          </div>
+          <div class="job_descript">
+            <div class="topic_descript">Vacancy End Date</div>
+            <div class="job_descript_input1 notneed">
+              <input type="time" name="" id="hr_id" class="user_id" />
+            </div>
+            <div class="job_descript_input1">
+              <input
+                type="date"
+                name=""
+                id="vacancyEndDate"
+                class="date_input"
+              />
+            </div>
+            <div class="job_descript_input1">
+              <input
+                type="time"
+                name=""
+                id="vacancyEndTime"
+                class="date_input"
+              />
+            </div>
+          </div>
+          <div class="submit_btn_div">
+            <button type="submit" class="submit_btn" id="submit_btn">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="display_detail5">
+        <div class="progress_container">
+          <div class="one1 let">1</div>
+          <div class="one_two prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="two1 let">2</div>
+          <div class="two_three prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="three1 let">3</div>
+          <div class="three_four prog">
+            <div class="progressbar1"></div>
+          </div>
+          <div class="four1 let">4</div>
+        </div>
+        <hr class="hrline" />
+        <div class="steps1">
+          <img src="img/Success.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="job_postconfirm">
+      <div class="job_confim_title">Are you sure you want to post the job?</div>
+      <div class="double_btn_job">
+        <button class="cancel">Cancel</button
+        ><button class="apply">Apply</button>
+      </div>
+    </div>
+    <script type="module" src="js/post.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script1.js"></script>
+  </body>
+</html>

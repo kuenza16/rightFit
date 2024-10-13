@@ -1,0 +1,71 @@
+.content {
+  width: 60%;
+  margin: 0 auto;
+  height: 300px;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 8px;
+}
+#hrForm {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  padding-right: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form {
+  width: 500px;
+  padding: 10px;
+  padding-right: 50px;
+}
+#searchInput {
+  width: 380px;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  color: #686c6f;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mulish", sans-serif;
+}
+.content {
+  margin-top: 70px;
+}
+input:focus {
+  outline: none;
+}
+@media (max-width: 480px) {
+  .signup_btn a,
+  .login_btn a {
+    padding: 8px;
+  }
+}
